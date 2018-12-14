@@ -16,5 +16,20 @@ namespace MyFirst_C_Sharp_Windows_Form
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.MessageBox.Show("Great you are happy!");
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.MessageBox.Show("Snap! It looks like you are sad!");
+        }
     }
 }
