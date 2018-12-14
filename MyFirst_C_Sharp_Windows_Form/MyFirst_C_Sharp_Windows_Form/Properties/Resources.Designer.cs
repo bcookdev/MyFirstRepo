@@ -63,6 +63,16 @@ namespace MyFirst_C_Sharp_Windows_Form.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap confused {
+            get {
+                object obj = ResourceManager.GetObject("confused", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap happy {
             get {
                 object obj = ResourceManager.GetObject("happy", resourceCulture);

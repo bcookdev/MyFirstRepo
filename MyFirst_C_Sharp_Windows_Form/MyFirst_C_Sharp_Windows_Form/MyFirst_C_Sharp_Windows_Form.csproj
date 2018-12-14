@@ -81,6 +81,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Images\confused.jpg" />
     <Content Include="Images\happy.jpg" />
     <Content Include="Images\sad.jpg" />
     <Content Include="ReadMe.txt" />

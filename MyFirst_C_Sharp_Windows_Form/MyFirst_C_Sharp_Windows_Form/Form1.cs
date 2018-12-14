@@ -31,5 +31,10 @@ namespace MyFirst_C_Sharp_Windows_Form
         {
             System.Windows.Forms.MessageBox.Show("Snap! It looks like you are sad!");
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.MessageBox.Show("Hmm! It looks like you are confused!");
+        }
     }
 }
